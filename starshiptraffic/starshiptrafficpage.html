@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <script src = "https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src = "https://ajax.cdnjs.com/ajax/libs/underscore.js/1.9.1/underscore.js"></script>
+    <script src = "https://ajax.cdnjs.com/ajax/libs/backbone.js/1.3.3/backbone.js"></script>
+    <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+    <title>Starship Traffic</title>
+    <style>
+        #wrapper {
+            background-color: lightgrey;
+        }
+        #links {
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+        #starships, #traffic {
+            padding: 15px;
+        }
+        .singlestarship, .singletraffic{
+            background-color: white;
+            padding: 5px;
+            margin: 5px;
+            width: 700px;
+        }
+    </style>
+</head>
+<body>
+    <div id = "wrapper">
+        <div id = "links">
+            <a href = "#starship">Starships</a> |
+            <a href = "#travel">WSDOT</a>
+        </div>
+        <div id = "starships"></div>
+        <div id = "traffic"></div>
+    </div>
+    <script src = "starshiptraffic.js"></script>
+</body>
+</html>
